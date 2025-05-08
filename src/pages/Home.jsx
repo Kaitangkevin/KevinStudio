@@ -44,7 +44,7 @@ const Home = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
           >
             <img 
-              src="/名片.png" 
+              src={process.env.PUBLIC_URL + '/名片.png'} 
               alt="Hero Illustration" 
               style={{ borderRadius: '40px' }}
             />
@@ -196,13 +196,13 @@ const Home = () => {
               ></div>
               <div className="post-content">
                 <span className="post-category">科技数码</span>
-                <h2>苹果公司指出因为美国政府的加税政策，可能会导致苹果产品涨价</h2>
+                <h2>智简平台正式开始内测，我们同步进行个人博客</h2>
                 <p className="post-excerpt">
-                  根据我们HiTec的估算，苹果公司会因为美国政府的加税举措，导致在美销售的苹果产品会增加售价。
+                  HiTec已经开始进行了智简平台的内测，并且这个平台是关于智能简历检测的，欢迎大家来体验。
                 </p>
                 <div className="post-meta">
                   <div className="post-date">
-                    <i className="far fa-calendar"></i> 2025年4月6日
+                    <i className="far fa-calendar"></i> 2025年5月6日
                   </div>
                   <Link to="/blog/react-state-management" className="read-more">
                     阅读更多 <i className="fas fa-arrow-right"></i>

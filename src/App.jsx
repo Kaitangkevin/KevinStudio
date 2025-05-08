@@ -16,20 +16,11 @@ function App() {
         <Routes>
           <Route path="/admin" element={<AdminLogin />} />
           <Route path="/admin/dashboard" element={<AdminDashboard />} />
-          <Route path="*" element={
-            <>
-              <Navbar />
-              <div className="content">
-                <Routes>
-                  <Route path="/" element={<Home />} />
-                  <Route path="/blog" element={<Blog />} />
-                  <Route path="/portfolio" element={<Portfolio />} />
-                  <Route path="/news" element={<News />} />
-                  <Route path="/about" element={<About />} />
-                </Routes>
-              </div>
-            </>
-          } />
+          <Route path="/" element={<Home />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/news" element={<News />} />
+          <Route path="/about" element={<About />} />
         </Routes>
       </div>
     </Router>

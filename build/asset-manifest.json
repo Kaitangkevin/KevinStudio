@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/KevinStudio/static/css/main.71765510.css",
-    "main.js": "/KevinStudio/static/js/main.a8c9d3a0.js",
+    "main.js": "/KevinStudio/static/js/main.a0685f35.js",
     "index.html": "/KevinStudio/index.html",
     "main.71765510.css.map": "/KevinStudio/static/css/main.71765510.css.map",
-    "main.a8c9d3a0.js.map": "/KevinStudio/static/js/main.a8c9d3a0.js.map"
+    "main.a0685f35.js.map": "/KevinStudio/static/js/main.a0685f35.js.map"
   },
   "entrypoints": [
     "static/css/main.71765510.css",
-    "static/js/main.a8c9d3a0.js"
+    "static/js/main.a0685f35.js"
   ]
 }
